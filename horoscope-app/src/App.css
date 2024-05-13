@@ -1,0 +1,85 @@
+@font-face {
+    font-family: 'Whisper-Regular';
+    src: url(./assets/Whisper/Whisper-Regular.ttf) format('truetype');
+}
+body {
+    background-color: rgb(46, 1, 20);
+    color: whitesmoke;
+    font-family: "Baskerville", serif;
+    font-size: 18px;
+    line-height: 1.5;
+    font-weight: 600;
+    font-synthesis: none;
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+#root {
+    max-width: 755px;
+    margin: 0 auto 80px;
+    text-align: center;
+}
+
+h1 {
+    font-family: "Whisper-Regular", "Baskerville", sans-serif;
+    font-size: 85px;
+    font-style: italic;
+    letter-spacing: 0.05em;
+    font-weight: 1000;
+
+}
+
+section {
+    border: 1px solid rgb(140, 139, 139);
+    border-radius: 16px;
+    background-color: rgb(19, 3, 19);
+    padding: 10px 60px 30px;
+    margin: 24px;
+}
+
+h2 {
+    font-size: 35px;
+    font-style: italic;
+    text-decoration: underline 1px;
+    text-underline-offset: 4px;
+}
+
+button {
+    border-radius: 8px;
+    border: none;
+    padding: 0.6em 1.2em;
+    font-size: 16px;
+    font-family: inherit;
+    font-weight: 600;
+    cursor: pointer;
+    margin: 14px;
+    background-color: whitesmoke;
+    transition: background-color 0.75s;
+}
+
+button:hover {
+    background-color: rgb(182, 148, 214);
+}
+
+button.sign-button {
+    width: 180px;
+    height: 90px;
+    margin: 7px;
+    border-radius: 16px;
+
+}
+
+img {
+    filter: invert(90%);
+    -webkit-filter: invert(90%);
+    width: 100px;
+
+}
+
+h2.sign-font {
+    font-family: "Whisper-Regular", "Baskerville", sans-serif;
+    font-size: 65px;
+    font-weight: 800;
+    margin: 20px;
+}
