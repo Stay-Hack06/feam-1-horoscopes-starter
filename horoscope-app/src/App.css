@@ -27,7 +27,6 @@ h1 {
     font-style: italic;
     letter-spacing: 0.05em;
     font-weight: 1000;
-
 }
 
 section {
@@ -67,6 +66,11 @@ button.sign-button {
     height: 90px;
     margin: 7px;
     border-radius: 16px;
+    font-family: "Whisper-Regular", "Baskerville", sans-serif;
+    font-weight: 800;
+    font-size: 25px;
+    color: rgb(38, 9, 9);
+    border-style: groove;
 
 }
 
@@ -82,4 +86,22 @@ h2.sign-font {
     font-size: 65px;
     font-weight: 800;
     margin: 20px;
+}
+
+input {
+    width: 200px;
+    height: 30px;
+    display: block;
+    margin: 20px auto;
+
+    font-family: "Whisper-Regular", "Baskerville", sans-serif;
+    font-size: 18px;
+}
+
+h3 {
+    font-family: "Whisper-Regular", "Baskerville", sans-serif;
+    font-size: 65px;
+    font-style: italic;
+    letter-spacing: 0.05em;
+    font-weight: 1000;
 }
